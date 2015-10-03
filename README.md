@@ -1,7 +1,6 @@
 # C-FCFS
 Implementazione dell'algoritmo FCFS in C.
 # fcfs.h
-## Prototipo
 `float fcfs(int MoT);`
 
 MoT può assumere i seguenti valori:
