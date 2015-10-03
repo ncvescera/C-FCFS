@@ -4,6 +4,8 @@ float fcfs(int MoT){
     int i;
     float totale;
     
+    if (MoT<1 || MoT>2)
+        return -1;
     printf("Inserisci il numero di processi: ");
     scanf("%d",&processi);
     

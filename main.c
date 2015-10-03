@@ -19,8 +19,10 @@ int main(int argc, char** argv) {
    
    totale = fcfs(MoT);
    
-    printf("Il tempo di attesa medio è: %5.2f\n",totale);
-   
+   if (totale != -1)
+       printf("Il tempo di attesa è: %5.2f\n",totale);
+   else
+       printf("Error! Invalid MoT\n");
     return (EXIT_SUCCESS);
 }
 
