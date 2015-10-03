@@ -6,11 +6,12 @@ float fcfs(int MoT){
     
     if (MoT<1 || MoT>2)
         return -1;
+    
     printf("Inserisci il numero di processi: ");
     scanf("%d",&processi);
     
-    if(processi == 0)
-        return(0);
+    if(processi <= 0)
+        return -2;
     
     i = processi;
     while(i){

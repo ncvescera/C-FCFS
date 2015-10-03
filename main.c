@@ -19,10 +19,13 @@ int main(int argc, char** argv) {
    
    totale = fcfs(MoT);
    
-   if (totale != -1)
+   if (totale >= 0)
        printf("Il tempo di attesa è: %5.2f\n",totale);
+   else if (totale == -2)
+       printf("Error!Incorrect number of processes");
    else
        printf("Error! Invalid MoT\n");
+   
     return (EXIT_SUCCESS);
 }
 
