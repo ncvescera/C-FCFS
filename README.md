@@ -13,5 +13,8 @@ MoT può assumere i seguenti valori:
 * 1 --> calcola il totale
 * 2 --> calcola la media
 
-Ritorna 0 se i porcessi inseriti sono 0.
+Ritorna: 
+* 0 se i porcessi inseriti sono 0.
+* -1 Se il valore di MoT è diverso da 1 o 2
+* float se non si presentano errori
 
