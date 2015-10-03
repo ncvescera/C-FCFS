@@ -1,5 +1,11 @@
 # C-FCFS
 Implementazione dell'algoritmo FCFS in C.
+##How it Works
+In poche parole per realizzare questo algoritmo basta sommare tutti i tempi di esecuzione tra di loro tranne l'ultimo.
+## Esempio
+Tempi di esecuzione = 5,3,8,6
+
+totale = 5+3+8 = 16
 # fcfs.h
 `float fcfs(int MoT);`
 
