@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "fcfs.h"
-//float fcfs(int MoT); // 1 per il totale 2 per la media
+
 void menu();
 
 int main(int argc, char** argv) {
@@ -23,7 +23,6 @@ int main(int argc, char** argv) {
    
     return (EXIT_SUCCESS);
 }
-
 
 void menu(){
     printf(" ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄\n"); 
