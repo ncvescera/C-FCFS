@@ -23,9 +23,10 @@ int main(int argc, char** argv) {
        printf("Il tempo di attesa è: %5.2f\n",totale);
    else if (totale == -2)
        printf("Error!Incorrect number of processes");
-   else if(totale == -1)
+   else if (totale == -1)
        printf("Error! Invalid MoT\n");
-   
+   else if (totale == -3)
+       printf("Error! Invalid execution time value");
     return (EXIT_SUCCESS);
 }
 

@@ -18,6 +18,9 @@ float fcfs(int MoT){
         printf("Inserisci la durata del processo: ");
         scanf("%d",&time);
         
+        if(time <= 0)
+            return -3;
+        
         totale += time;
         i--;
     }
